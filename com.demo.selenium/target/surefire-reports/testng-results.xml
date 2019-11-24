@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23551" started-at="2019-11-23T09:09:02Z" finished-at="2019-11-23T09:09:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23551" started-at="2019-11-23T09:09:02Z" finished-at="2019-11-23T09:09:25Z">
+      <class name="com.demo.test.LoadTest02">
+        <test-method status="PASS" signature="startChrome()[pri:0, instance:com.demo.test.LoadTest02@7d417077]" name="startChrome" is-config="true" duration-ms="5587" started-at="2019-11-23T09:09:18Z" finished-at="2019-11-23T09:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChrome -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.demo.test.LoadTest02@7d417077]" name="verifyGooglePageTittle" duration-ms="1111" started-at="2019-11-23T09:09:24Z" finished-at="2019-11-23T09:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.demo.test.LoadTest02@7d417077]" name="closeDriver" is-config="true" duration-ms="667" started-at="2019-11-23T09:09:25Z" finished-at="2019-11-23T09:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.demo.test.LoadTest02 -->
+      <class name="com.demo.test.GoogleHomePageTitle">
+        <test-method status="PASS" signature="startChrome()[pri:0, instance:com.demo.test.GoogleHomePageTitle@3f0ee7cb]" name="startChrome" is-config="true" duration-ms="6709" started-at="2019-11-23T09:09:02Z" finished-at="2019-11-23T09:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChrome -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.demo.test.GoogleHomePageTitle@3f0ee7cb]" name="verifyGooglePageTittle" duration-ms="1190" started-at="2019-11-23T09:09:08Z" finished-at="2019-11-23T09:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.demo.test.GoogleHomePageTitle@3f0ee7cb]" name="closeDriver" is-config="true" duration-ms="686" started-at="2019-11-23T09:09:10Z" finished-at="2019-11-23T09:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.demo.test.GoogleHomePageTitle -->
+      <class name="com.demo.test.LoadTest01">
+        <test-method status="PASS" signature="startChrome()[pri:0, instance:com.demo.test.LoadTest01@75bd9247]" name="startChrome" is-config="true" duration-ms="5594" started-at="2019-11-23T09:09:10Z" finished-at="2019-11-23T09:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startChrome -->
+        <test-method status="PASS" signature="verifySearchButton()[pri:0, instance:com.demo.test.LoadTest01@75bd9247]" name="verifySearchButton" duration-ms="1342" started-at="2019-11-23T09:09:16Z" finished-at="2019-11-23T09:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButton -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.demo.test.LoadTest01@75bd9247]" name="closeDriver" is-config="true" duration-ms="660" started-at="2019-11-23T09:09:17Z" finished-at="2019-11-23T09:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.demo.test.LoadTest01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
